@@ -11,7 +11,7 @@ def test_full_complited_form():
     registration_page.fill_phonenumber("7999999999")
     registration_page.fill_date_of_birth(28, 5, 2005)
     registration_page.choose_subjects("Eng")
-    registration_page.choose_hobbies(1,2)
+    registration_page.choose_hobbies(1, 2)
     registration_page.upload_picture("images.png")
     registration_page.input_current_address("Test adress, 11/1")
     registration_page.scroll("#state")
@@ -19,5 +19,6 @@ def test_full_complited_form():
     registration_page.city_select("Panipat")
     registration_page.submit()
 
-    registration_page.filled_form_validation('Ivan Ivanovich', 'Ivanovich@testmail.com', 'Male', '7999999999', '28 June,2005', 'English',
-                         'Sports, Reading', 'images.png', 'Test adress, 11/1', 'Haryana Panipat')
+    registration_page.filled_form_validation('Ivan Ivanovich', 'Ivanovich@testmail.com', 'Male', '7999999999',
+                                             '28 June,2005', 'English',
+                                             'Sports, Reading', 'images.png', 'Test adress, 11/1', 'Haryana Panipat')
