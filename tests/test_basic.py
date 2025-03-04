@@ -22,3 +22,5 @@ def test_full_complited_form():
     registration_page.filled_form_validation('Ivan Ivanovich', 'Ivanovich@testmail.com', 'Male', '7999999999',
                                              '28 June,2005', 'English',
                                              'Sports, Reading', 'images.png', 'Test adress, 11/1', 'Haryana Panipat')
+
+
